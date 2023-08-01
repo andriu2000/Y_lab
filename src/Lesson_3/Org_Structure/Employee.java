@@ -20,7 +20,7 @@ public class Employee {
     public Long getBossId(){
         return bossId;
     }
-    public void SetBossId(Long bossId){
+    public void setBossId(Long bossId){
         this.bossId = bossId;
     }
     public String getName(){
@@ -32,7 +32,7 @@ public class Employee {
     public String getPosition(){
         return position;
     }
-    public void SetPosition(String position){
+    public void setPosition(String position){
         this.position = position;
     }
     public Employee getBoss (){

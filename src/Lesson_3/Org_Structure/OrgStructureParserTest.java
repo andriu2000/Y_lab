@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class OrgStructureParserTest {
     static public void main(String[] args) throws IOException {
-        File filecsv = new File(/*"D://",*/"orgStructure.csv");
+        File filecsv = new File("E://","orgStructure.csv");
         OrgStructureParserImp parser = new OrgStructureParserImp();
 
         parser.parseStructure(filecsv);
