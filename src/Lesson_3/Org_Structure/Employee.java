@@ -44,4 +44,7 @@ public class Employee {
     public List<Employee> getSubordinate(){
         return subordinate;
     }
+    public void setSubordinate(List<Employee> List_subordinate) {
+        this.subordinate = List_subordinate;
+    }
 }
