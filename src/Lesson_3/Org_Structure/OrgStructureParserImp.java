@@ -27,8 +27,10 @@ public class OrgStructureParserImp implements OrgStructureParser {
          int nomer_parametra;
          int temp_int =0;
          String temp_str;
+
          try(FileInputStream file =new FileInputStream(csvFile)){
              Scanner scanner = new Scanner(file);
+
 
              //считываем первую строку
              if (scanner.hasNextLine())
@@ -99,7 +101,10 @@ public class OrgStructureParserImp implements OrgStructureParser {
                  one_employee =null;
              }
              //----------------------------------------------------------------------------
+             file.close();
          }
+
+
          return Employee_List;
      }
     // ====================== формируем информацию о начальниках у сотрудниках ========================
