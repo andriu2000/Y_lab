@@ -1,11 +1,11 @@
-package PasswordValidator;
+package Lesson_3.PasswordValidator;
 
 import java.util.Scanner;
 
-import static PasswordValidator.PasswordValidator.passwordvalidator;
+import static Lesson_3.PasswordValidator.PasswordValidator.passwordvalidator;
 
-//import static PasswordValidator.PasswordValidator.passwordvalidator;
-//import PasswordValidator;
+//import static Lesson_3.PasswordValidator.Lesson_3.PasswordValidator.passwordvalidator;
+//import Lesson_3.PasswordValidator;
 public class LoginPasswordTest {
     public static void main(String args[]) {
         String login, password, confimpassword;

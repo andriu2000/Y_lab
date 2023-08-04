@@ -1,4 +1,4 @@
-package PasswordValidator;
+package Lesson_3.PasswordValidator;
 
 public class PasswordValidator {
     private  String login;

@@ -1,4 +1,4 @@
-package PasswordValidator;
+package Lesson_3.PasswordValidator;
 
 class WrongLoginExeption extends Exception{
     public  WrongLoginExeption(){
